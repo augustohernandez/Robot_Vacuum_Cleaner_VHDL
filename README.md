@@ -3,7 +3,7 @@
 ## Final project -Digital Electronics: Bachelor's Degree in Telecommunications Technology and Services Engineering (UOC). 
 
 VHDL file with system encoding:\
-**robot_fsm1.vhd:** \
+**robot_fsm1.vhd:** 
 
 .do files with the input signals used in the simulations:\
 **ed_pra_casoA.do:** \
