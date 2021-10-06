@@ -3,12 +3,12 @@
 ## Final Project -Digital Electronics: Bachelor's Degree in Telecommunications Technology and Services Engineering (UOC). 
 
 VHDL file with system encoding:\
-**robot_fsm1.vhd:** 
+**robot_fsm1.vhd** 
 
 .do files with the input signals used in the simulations:\
-**ed_pra_casoA.do:** \
-**ed_pra_casoB.do:** \
-**ed_pra_casoC.do:** 
+**ed_pra_casoA.do** \
+**ed_pra_casoB.do** \
+**ed_pra_casoC.do** 
 
 The robot has two very close light sensors that will indicate, by means of a signal, which part of the room is more illuminated.
 
