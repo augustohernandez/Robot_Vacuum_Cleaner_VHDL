@@ -96,6 +96,11 @@ In this second screenshot it can be seen that the robot stops, makes a 90 turn d
 
 #### -Capture case c)
 
+![Captura de pantalla de 2021-10-06 19-59-55](https://user-images.githubusercontent.com/34940932/136258155-dbadaadd-55a2-4a58-82c4-3303c71d4f62.png)
+
+In this last screenshot it can be seen that the robot makes a 90 degree turn (2 clock cycles: 2 x 20 us = 40 us) to the left, then when the front_barr is still activated an alarm situation is generated and the robot does not does it move. When the reset is activated (init state) the alarm is deactivated and returns to the initial state.
+
+
 
 
 
