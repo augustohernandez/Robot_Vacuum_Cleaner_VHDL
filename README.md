@@ -35,4 +35,6 @@ The design must determine the state and direction of movement and rotation of th
 
 Schematically, the system is considered a black box like the one in the following figure: 
 
+![Captura de pantalla de 2021-10-06 19-14-31](https://user-images.githubusercontent.com/34940932/136252798-e82f17a5-ba8c-4a9d-9e84-5be907c01628.png)
+
 
