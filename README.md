@@ -86,6 +86,13 @@ S7 = BLOCKED
 
 ![Captura de pantalla de 2021-10-06 19-54-05](https://user-images.githubusercontent.com/34940932/136257387-954a4a33-acc0-4617-adbf-140aea255f61.png)
 
+In this first screenshot, it can be seen that the robot stops, makes a 45-degree turn (1 clock cycle = 20 us) to the right and starts moving again.
+
+
+
+In this second screenshot it can be seen that the robot stops, makes a 90 turn degrees (2 clock cycles: 2 x 20 us = 40 us) to the right and resume movement.
+
+
 
 
 
