@@ -37,13 +37,19 @@ Schematically, the system is considered a black box like the one in the followin
 
 ![Captura de pantalla de 2021-10-06 19-14-31](https://user-images.githubusercontent.com/34940932/136252798-e82f17a5-ba8c-4a9d-9e84-5be907c01628.png)
 
-The input signals involved are:
+-The input signals involved are:
 
   **reset:** when activated, the system is initialized and the alarm is deactivated.
   
   **start_stop**: it is activated and deactivated when you want to start or stop the movement.
   
   **light_zone:** if active, indicates that the zone on the right is brighter than the one on the left.
+  
+  **front_barr:** if active, indicates that there is a nearby object in the front zone of the robot.
+
+  **back_barr:** if it is active, it indicates that there is a nearby object in the rear zone of the robot.
+
+  **angle_detect:** activates and deactivates each time the robot rotates 1/8 of a turn. 
   
   
 
