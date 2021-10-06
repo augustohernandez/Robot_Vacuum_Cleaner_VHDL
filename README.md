@@ -1,6 +1,6 @@
 # Robot_Vacuum_Cleaner_VHDL
 
-## Final project-Digital Electronics: Bachelor's Degree in Telecommunications Technology and Services Engineering (UOC). 
+## Final project -Digital Electronics: Bachelor's Degree in Telecommunications Technology and Services Engineering (UOC). 
 
 VHDL file with system encoding:\
 **robot_fsm1.vhd:** \
