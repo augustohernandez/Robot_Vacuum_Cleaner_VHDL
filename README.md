@@ -76,7 +76,7 @@ The inputs and outputs will be active by "1". We need to correctly generate the 
 
 An 8-state finite state machine (Moore) has been designed. Certain intermediate states such as moving / turning / stopped have been dispensed with, as they did not add anything new to the configuration of the implemented system.
 
-The state diagram proposed for the proposed system is the one that we see is the following: 
+The state diagram proposed for system is the following: 
 
 ![Captura de pantalla de 2021-10-06 19-50-14](https://user-images.githubusercontent.com/34940932/136256814-5f914009-56dd-4e24-8dc4-8c1f2479396b.png)
 
