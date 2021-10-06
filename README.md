@@ -71,7 +71,7 @@ The inputs and outputs will be active by "1". We need to correctly generate the 
 
 -Software resources: Quartus/Modelsim 
 
-## **PROPOSED SOLUTION**
+## Proposed solution:
 
 An 8-state finite state machine (Moore) has been designed. Certain intermediate states such as moving / turning / stopped have been dispensed with, as they did not add anything new to the configuration of the implemented system.
 
