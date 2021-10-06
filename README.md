@@ -1,6 +1,6 @@
 # Robot_Vacuum_Cleaner_VHDL
 
-## Final project of the Digital Electronics subject of the Bachelor's Degree in Telecommunications Technology and Services Engineering. 
+## Final project of the Digital Electronics subject of the Bachelor's Degree in Telecommunications Technology and Services Engineering (UOC). 
 
 VHDL file with system encoding:\
 **robot_fsm1.vhd:** \
@@ -71,7 +71,7 @@ The inputs and outputs will be active by "1". We need to correctly generate the 
 
 -Software resources: Quartus/Modelsim 
 
-## Proposed solution:
+### Proposed solution:
 
 An 8-state finite state machine (Moore) has been designed. Certain intermediate states such as moving / turning / stopped have been dispensed with, as they did not add anything new to the configuration of the implemented system.
 
