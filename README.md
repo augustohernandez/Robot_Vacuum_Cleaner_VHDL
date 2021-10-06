@@ -51,7 +51,7 @@ Schematically, the system is considered a black box like the one in the followin
 
   **•angle_detect:** activates and deactivates each time the robot rotates 1/8 of a turn. 
   
--The output signals are:
+-The output signals involved are:
 
   **•alarm:** it will remain active as long as there is an alarm situation.
 
@@ -62,6 +62,18 @@ Schematically, the system is considered a black box like the one in the followin
   **•turn:** it will remain active as long as you have to turn the robot.
 
   **•dir_turn:** indicates the direction of rotation. When active, the movement should be to the right. Otherwise, to the left. 
+  
+A clock signal (clk) is available, since the system will have to be modeled as a state machine, in order to be implemented in an FPGA-type device. It can be further considered that the signals provided by the sensors are stable for a minimum of one clock cycle.
+
+The objective of the practice is to correctly generate the output signals, which we will check through simulation.
+
+The inputs and outputs will be active by "1". We need to correctly generate the outputs of the system. The operation of the system must be modeled using a finite state machine. You can make personal considerations about the design as long as the specifications of the statement are respected. 
+
+-Software resources: Quartus/Modelsim 
+
+
+  
+  
   
   
 
