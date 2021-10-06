@@ -79,6 +79,9 @@ The state diagram proposed for the proposed system is the one that we see is the
 
 ![Captura de pantalla de 2021-10-06 19-50-14](https://user-images.githubusercontent.com/34940932/136256814-5f914009-56dd-4e24-8dc4-8c1f2479396b.png)
 
+S0 = INIT, S1 = FORWARD, S2 = BACKWARD, S3 = TURNING_RIGHT 45 DEGREES, S4= TURNING_LEFT 45 DEGREES, S5 = TURNING_RIGHT 90 DEGREES, S6 = URNING_LEFT 90 DEGREES, 
+S7 = BLOCKED
+
 
 
 
