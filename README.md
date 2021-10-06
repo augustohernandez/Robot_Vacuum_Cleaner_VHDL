@@ -39,17 +39,29 @@ Schematically, the system is considered a black box like the one in the followin
 
 -The input signals involved are:
 
-  **reset:** when activated, the system is initialized and the alarm is deactivated.
+  **•reset:** when activated, the system is initialized and the alarm is deactivated.
   
-  **start_stop**: it is activated and deactivated when you want to start or stop the movement.
+  **•start_stop**: it is activated and deactivated when you want to start or stop the movement.
   
-  **light_zone:** if active, indicates that the zone on the right is brighter than the one on the left.
+  **•light_zone:** if active, indicates that the zone on the right is brighter than the one on the left.
   
-  **front_barr:** if active, indicates that there is a nearby object in the front zone of the robot.
+  **•front_barr:** if active, indicates that there is a nearby object in the front zone of the robot.
 
-  **back_barr:** if it is active, it indicates that there is a nearby object in the rear zone of the robot.
+  **•back_barr:** if it is active, it indicates that there is a nearby object in the rear zone of the robot.
 
-  **angle_detect:** activates and deactivates each time the robot rotates 1/8 of a turn. 
+  **•angle_detect:** activates and deactivates each time the robot rotates 1/8 of a turn. 
+  
+-The output signals are:
+
+  **•alarm:** it will remain active as long as there is an alarm situation.
+
+  **•mov:** it will remain active as long as the robot has to move forward or backward.
+
+  **•dir_mov:** indicates the direction of movement. When active, movement should be forward. Otherwise, backwards.
+
+  **•turn:** it will remain active as long as you have to turn the robot.
+
+  **•dir_turn:** indicates the direction of rotation. When active, the movement should be to the right. Otherwise, to the left. 
   
   
 
