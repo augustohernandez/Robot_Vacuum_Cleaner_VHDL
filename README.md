@@ -4,6 +4,7 @@
 
 VHDL file with system encoding:\
 **robot_fsm1.vhd:** \
+
 .do files with the input signals used in the simulations:\
 **ed_pra_casoA.do:** \
 **ed_pra_casoB.do:** \
