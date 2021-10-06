@@ -31,3 +31,8 @@ reset.
 
 If the start_stop button is pressed while the robot is moving (forward or backward), it will have to stop and it will return to the initial state waiting to receive the order to start the movement. On the other hand, if the robot was turning or was in an alarm situation, it will be ignored. Note that when the button is pressed, it may be active for more than one clock cycle. 
 
+The design must determine the state and direction of movement and rotation of the robot respectively. It will also be necessary to generate the alarm signal.
+
+Schematically, the system is considered a black box like the one in the following figure: 
+
+
