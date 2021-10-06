@@ -1,6 +1,6 @@
 # Robot_Vacuum_Cleaner_VHDL
 
-Final project of the Digital Electronics subject of the Bachelor's Degree in Telecommunications Technology and Services Engineering. 
+## Final project of the Digital Electronics subject of the Bachelor's Degree in Telecommunications Technology and Services Engineering. 
 
 VHDL file with system encoding:\
 **robot_fsm1.vhd:** \
@@ -70,6 +70,15 @@ The objective of the practice is to correctly generate the output signals, which
 The inputs and outputs will be active by "1". We need to correctly generate the outputs of the system. The operation of the system must be modeled using a finite state machine. You can make personal considerations about the design as long as the specifications of the statement are respected. 
 
 -Software resources: Quartus/Modelsim 
+
+## **PROPOSED SOLUTION**
+
+An 8-state finite state machine (Moore) has been designed. Certain intermediate states such as moving / turning / stopped have been dispensed with, as they did not add anything new to the configuration of the implemented system.
+
+The state diagram proposed for the proposed system is the one that we see is the following: 
+
+
+
 
 
   
